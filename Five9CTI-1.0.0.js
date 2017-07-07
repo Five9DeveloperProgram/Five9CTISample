@@ -35,7 +35,7 @@ var Five9CTI = (function () {
         };
 
         /**
-         * Enables CIT WS stateless model
+         * Enables CTI WS stateless model
          *
          * @param enabled
          */
