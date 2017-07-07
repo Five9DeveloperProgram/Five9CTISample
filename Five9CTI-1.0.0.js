@@ -2237,11 +2237,11 @@ var Five9CTI = (function () {
             }));
         },
 
-        leaveConference3: function (dispositionId) {
+        leaveConference3: function (dispositionCallId) {
             return this.syncRequest(this.generateSoapEnv(null, {
                 leaveConference3: {
                     __prefix: 'urn',
-                    dispositionId: dispositionId
+                    dispositionCallId: dispositionCallId
                 }
             }));
         },
